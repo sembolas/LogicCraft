@@ -29,8 +29,8 @@ class UMLNode(BaseModel):
     name: str
     x: float
     y: float
-    properties: list[UMLProperty] = [] #свойства
-    methods: list[UMLMethod] = [] #методы
+    properties: list[UMLProperty] = []  #свойства
+    methods: list[UMLMethod] = []  #методы
     is_abstract: bool = False
     stereotype: Optional[str] = None
 
